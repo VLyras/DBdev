@@ -23,7 +23,7 @@ login_manager.init_app(app)
 # Enable debugtoolbar
 toolbar = DebugToolbarExtension(app)
 
-# for displaying timestamps
+# for displaying timestamp
 moment = Moment(app)
 
 import models
