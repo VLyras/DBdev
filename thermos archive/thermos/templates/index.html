@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}
+Driftbee -- Welcome
+{% endblock %}
+
+{% block content %}
+    <article>
+        <header>
+            <h1>Welcome</h1>
+            <p>Driftbee is a simple platform designed to make organising your holidays a piece of cake.</p>
+            <p>Don't have an account yet? Create one by <a href="{{ url_for('signup')}} ">Signing up!</a></p>
+        </header>
+
+
+
+        <section>
+            <h2>
+                Recently Added Trips
+            </h2>
+            {% if new_bookmarks.count()>0 %}
+                {% with bookmarks=new_bookmarks %}
+                    {% include "bookmark_list.html" %}
+                {% endwith %}
+            {% else %}
+                No bookmarks have been added yet.
+            {% endif %}
+        </section>
+
+        <section>
+            <h2>article section h2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+        </section>
+
+        <footer>
+            <h3>article footer h3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
+        </footer>
+    </article>
+{% endblock %}
+
