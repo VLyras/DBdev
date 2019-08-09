@@ -234,7 +234,7 @@ span.editlinks {
 
 /* sidebar link styling */
 a:hover, aside a:hover, aside a:visited:hover{
-    color: white;
+    color: black;
 }
 
 aside a{
@@ -260,6 +260,10 @@ footer a:visited{
     color:white ;
 }
 
+/* Upload an image style*/
+aside.sidebar h3{
+    color: #000073;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */

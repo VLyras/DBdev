@@ -11,7 +11,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '\xd3\x869\x06\xb9\xe7~\xde\xc55l\x19l\xc2\xdc\r\x01i:\x9dvA\x98\xbc'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'thermos.db')
-app.config['DEBUG'] = True
+app.config['DEBUG'] = False
 db = SQLAlchemy(app)
 
 # Configure authentication
@@ -23,7 +23,7 @@ login_manager.init_app(app)
 # Enable debugtoolbar
 toolbar = DebugToolbarExtension(app)
 
-# for displaying timestamp
+# for displaying timestamps
 moment = Moment(app)
 
 import models
