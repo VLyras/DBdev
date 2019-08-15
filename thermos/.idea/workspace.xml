@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b74e44b-8a6a-4ec2-8565-a09db61adf9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thermos/templates/trip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/migrations/README" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/migrations/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/migrations/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/migrations/alembic.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/migrations/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/migrations/script.py.mako" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/migrations/script.py.mako" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/migrations/versions/51b466fb4ac7_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/migrations/versions/6655d393ce70_fix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/bookmark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/bookmark_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/templates/trip_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/bookmark_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/templates/trip_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/templates/confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/templates/tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/thermos.db" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/thermos.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thermos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/thermos/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="2b74e44b-8a6a-4ec2-8565-a09db61adf9d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +57,10 @@
         <option value="$PROJECT_DIR$/thermos/models.py" />
         <option value="$PROJECT_DIR$/thermos/templates/confirm_delete.html" />
         <option value="$PROJECT_DIR$/thermos/templates/tag.html" />
-        <option value="$PROJECT_DIR$/thermos/static/css/main.css" />
         <option value="$PROJECT_DIR$/thermos/templates/trip.html" />
         <option value="$PROJECT_DIR$/thermos/templates/index.html" />
         <option value="$PROJECT_DIR$/thermos/templates/trip_list.html" />
+        <option value="$PROJECT_DIR$/thermos/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -108,19 +85,6 @@
               <item name="thermos" type="b2602c69:ProjectViewProjectNode" />
               <item name="thermos" type="462c0819:PsiDirectoryNode" />
               <item name="thermos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thermos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thermos" type="462c0819:PsiDirectoryNode" />
-              <item name="thermos" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thermos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thermos" type="462c0819:PsiDirectoryNode" />
-              <item name="thermos" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thermos" type="b2602c69:ProjectViewProjectNode" />
@@ -177,7 +141,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -188,7 +152,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -301,13 +265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thermos/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="202" column="7" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thermos/templates/403.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -397,6 +354,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thermos/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2167">
+          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
         </state>
       </provider>
     </entry>
