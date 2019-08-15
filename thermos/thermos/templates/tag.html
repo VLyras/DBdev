@@ -10,9 +10,9 @@ Driftbee -- Trips tagged {{ tag }}
 		<header>
 			<h1>Trips tagged {{tag}}</h1>
 
-			{% if tag.bookmarks.count()>0 %}
-                {% with bookmarks=tag.bookmarks %}
-                    {% include "bookmark_list.html" %}
+			{% if tag.trips.count()>0 %}
+                {% with trips=tag.tripss %}
+                    {% include "trip_list.html" %}
                 {% endwith %}
             {% else %}
                 There are no trips with this tag.

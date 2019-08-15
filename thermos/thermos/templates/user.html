@@ -10,9 +10,9 @@ Driftbee -- Trip Summary for user {{user.username}}
 		<header>
 			<h1>Trips for {{user.username}}</h1>
 
-			{% if user.bookmarks.count()>0 %}
-                {% with bookmarks=user.bookmarks %}
-                    {% include "bookmark_list.html" %}
+			{% if user.trips.count()>0 %}
+                {% with trips=user.trips %}
+                    {% include "trip_list.html" %}
                 {% endwith %}
             {% else %}
                 This user has not added any trips yet.

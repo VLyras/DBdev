@@ -200,13 +200,13 @@ a:hover, aside a:hover, aside a:visited:hover {
 }
 
 
-/* bookmark link styling */
-ul.bookmarks {
+/* trip link styling */
+ul.trips {
     list-style: none none;
     padding-left: 0;
 }
 
-.bookmarks {
+.trips {
     padding-bottom: .5em;
     border-top: 1px solid #7EA6BF;
     padding: 1em 0;
