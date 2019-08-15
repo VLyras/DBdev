@@ -18,12 +18,12 @@ Driftbee -- Welcome
             <h2>
                 Recently Added Trips
             </h2>
-            {% if new_bookmarks.count()>0 %}
-                {% with bookmarks=new_bookmarks %}
-                    {% include "bookmark_list.html" %}
+            {% if new_trips.count()>0 %}
+                {% with trips=new_trips %}
+                    {% include "trip_list.html" %}
                 {% endwith %}
             {% else %}
-                No bookmarks have been added yet.
+                No trips have been added yet.
             {% endif %}
         </section>
     </article>

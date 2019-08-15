@@ -5,7 +5,7 @@ from wtforms.validators import DataRequired, url, Length, Email, Regexp, EqualTo
 from models import User
 
 
-class BookmarkForm(Form):
+class TripForm(Form):
     # global url -- might want to remove url validator from here
     url = URLField('If you have a trip bookmark input it here:')
     destination = StringField('Add your destination:', validators=[DataRequired()])

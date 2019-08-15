@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 from __init__ import app, db
-from models import User, Bookmark, Tag
+from models import User, Trip, Tag
 from flask_script import Manager, prompt_bool
 from flask_migrate import Migrate, MigrateCommand
 

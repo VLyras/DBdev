@@ -200,13 +200,13 @@ a:hover, aside a:hover, aside a:visited:hover {
 }
 
 
-/* bookmark link styling */
-ul.bookmarks {
+/* trip link styling */
+ul.trips {
     list-style: none none;
     padding-left: 0;
 }
 
-.bookmarks {
+.trips {
     padding-bottom: .5em;
     border-top: 1px solid #7EA6BF;
     padding: 1em 0;
@@ -234,7 +234,7 @@ span.editlinks {
 
 /* sidebar link styling */
 a:hover, aside a:hover, aside a:visited:hover{
-    color: white;
+    color: black;
 }
 
 aside a{
@@ -260,6 +260,10 @@ footer a:visited{
     color:white ;
 }
 
+/* Upload an image style*/
+aside.sidebar h3{
+    color: #000073;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */

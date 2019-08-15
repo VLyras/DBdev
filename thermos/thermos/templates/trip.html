@@ -1,0 +1,56 @@
+<div class="trip">
+    <a class="header" href="{{ trip.url }}">
+        <h3 class="description">
+            {{ trip.description|truncate(50,killwords=True) }}
+        </h3>
+        <span class="url">
+            {{ trip.url|truncate(50,killwords=True) }}
+        </span>
+    </a>
+    <div class="info">
+         <span class="destination">
+            My destination is
+             {{ trip.destination|truncate(50,killwords=True) }}.
+         </span>
+        <br>
+        <span class="outbound">
+            My outbound date is on the
+             {{ trip.outbound_date|truncate(50,killwords=True) }}
+            and the time of the flight is at
+            {{ trip.outbound_time|truncate(50,killwords=True) }}.
+         </span>
+        <br>
+        <span class="inbound">
+            My inbound date is on the
+             {{ trip.inbound_date|truncate(50,killwords=True) }}
+            and the time of the flight is at
+            {{ trip.inbound_time|truncate(50,killwords=True) }}.
+         </span>
+
+
+        <br>
+        <br>
+        <span class="tags">
+            Tags for my Trip:
+            {% if trip.tags %}
+                {% for t in trip._tags %}
+                    <a href="{{ url_for('tag',name=t)}}">{{ t }}</a>
+                   {% endfor %}
+                {% else %}No tags.
+            {% endif %}
+         </span>
+        <br>
+
+        Added by <a href="{{ url_for('user', username=trip.user.username) }}">
+        {{ trip.user.username }}
+    </a>
+    {{ moment(trip.date).fromNow() }}.
+    {% if current_user == trip.user and not nolinks %}
+        <span class="editlinks">
+            <a href="{{ url_for('edit_trip', trip_id=trip.id) }}">edit</a>
+            <a href="{{ url_for('delete_trip', trip_id=trip.id) }}">delete</a>
+        </span>
+    {% endif %}
+    </div>
+</div>
+
