@@ -206,7 +206,7 @@ ul.trips {
     padding-left: 0;
 }
 
-.trip {
+ul.trips li {
     padding-bottom: .5em;
     border-top: 1px solid #7EA6BF;
     padding: 1em 0;
