@@ -64,20 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thermos/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
               <caret line="207" selection-start-line="207" selection-end-line="207" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thermos/templates/tag.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -125,6 +116,7 @@
         <option value="$PROJECT_DIR$/thermos/templates/add.html" />
         <option value="$PROJECT_DIR$/thermos/templates/signup.html" />
         <option value="$PROJECT_DIR$/thermos/templates/403.html" />
+        <option value="$PROJECT_DIR$/thermos/templates/tag.html" />
         <option value="$PROJECT_DIR$/thermos/templates/user.html" />
         <option value="$PROJECT_DIR$/thermos/manage.py" />
         <option value="$PROJECT_DIR$/thermos/templates/login.html" />
@@ -139,7 +131,6 @@
         <option value="$PROJECT_DIR$/thermos/templates/index.html" />
         <option value="$PROJECT_DIR$/thermos/templates/base.html" />
         <option value="$PROJECT_DIR$/thermos/forms.py" />
-        <option value="$PROJECT_DIR$/thermos/templates/tag.html" />
       </list>
     </option>
   </component>
@@ -348,6 +339,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thermos/templates/tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thermos/templates/confirm_delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -430,13 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="207" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thermos/templates/tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
