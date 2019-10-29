@@ -5,7 +5,7 @@ from forms import TripForm, LoginForm, SignupForm
 from models import User, Trip, Tag
 from flask_login import login_required, login_user, current_user, logout_user
 from werkzeug.utils import secure_filename  # needed to upload file
-import urllib.request
+#import urllib.request
 import os
 
 
