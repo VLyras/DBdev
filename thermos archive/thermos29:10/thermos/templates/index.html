@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}
+Driftbee -- Welcome
+{% endblock %}
+
+{% block content %}
+    <article>
+        <header>
+            <h1>Welcome</h1>
+            <p>Driftbee is a simple platform designed to make organising your holidays a piece of cake.</p>
+            <!--<p>Don't have an account yet? Create one by <a href="{{ url_for('signup')}} ">Signing up!</a></p> -->
+        </header>
+
+
+
+        <section>
+            <h2>
+                Recently Added Trips
+            </h2>
+            {% if new_trips.count()>0 %}
+                {% with trips=new_trips %}
+                    {% include "trip_list.html" %}
+                {% endwith %}
+            {% else %}
+                No trips have been added yet.
+            {% endif %}
+        </section>
+    </article>
+{% endblock %}
+

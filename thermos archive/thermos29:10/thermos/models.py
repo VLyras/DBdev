@@ -24,11 +24,10 @@ class Trip(db.Model):
 
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     _tags = db.relationship('Tag', secondary=tags, lazy='joined', backref=db.backref('trips', lazy='dynamic'))
-    privacy = db.Column(db.Boolean, default=False)
 
     @staticmethod
     def newest(num):
-        return Trip.query.filter(Trip.privacy.is_(False)).order_by(desc(Trip.date)).limit(num)
+        return Trip.query.order_by(desc(Trip.date)).limit(num)
 
     @property
     def tags(self):

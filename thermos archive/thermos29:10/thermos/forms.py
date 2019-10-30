@@ -20,7 +20,6 @@ class TripForm(Form):
     inbound_time = StringField('Add your trip inbound time:')
     tags = StringField('Tags', validators=[Regexp(r'^[a-zA-Z0-9, ]*$',
                                                   message='Tags can only contains letters and numbers')])
-    privacy = BooleanField('Is this a private Trip')
 
     def validate(self):
         #if not self.url.data.startswith("http://") or \

@@ -34,10 +34,9 @@ def add():
         inbound_date = form.inbound_date.data
         inbound_time = form.inbound_time.data
         tags = form.tags.data
-        privacy = form.privacy.data
         bm = Trip(user=current_user, url=url, description=description, destination=destination,
                   tags=tags, outbound_date=outbound_date, outbound_time=outbound_time, inbound_date=inbound_date,
-                  inbound_time=inbound_time, privacy=privacy)
+                  inbound_time=inbound_time)
         db.session.add(bm)
         db.session.commit()
         flash("Stored trip '{}'".format(description))
