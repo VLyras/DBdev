@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "form_macros.html" import render_field %}
+
+{% block title %}
+Driftbee -- Contact
+{% endblock %}
+
+{% block content %}
+	<section>
+		<h1 style="clear:both">Contact Us</h1>
+		<form action="{{ url_for('contact') }}" method=post>
+    		{{ form.hidden_tag() }}
+			<table>
+				{{ render_field(form.name, size=50) }}
+				{{ render_field(form.email, size=50) }}
+				{{ render_field(form.subject, size=50) }}
+				{{ render_field(form.message, size=100) }}
+
+				<tr class="submit">
+					<td></td>
+					<td><button type="submit"> Send</button></td>
+				</tr>
+			</table>
+ 		 </form>
+{% endblock %}
+
+
+{% block sidebar %}
+{% endblock %}

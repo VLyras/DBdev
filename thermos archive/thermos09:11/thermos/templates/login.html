@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "form_macros.html" import render_field %}
+
+{% block title %}
+Driftbee -- Sign In
+{% endblock %}
+
+{% block content %}
+	<section>
+		<h1 style="clear:both">Please Sign In</h1>
+		<p>Don't have an account yet? Create one by <a href="{{ url_for('signup')}} ">Signing up!</a></p>
+		<form action="" method="POST">
+			{{form.hidden_tag()}}
+			<table>
+				{{ render_field(form.username, size=50) }}
+				{{ render_field(form.password, size=50) }}
+				{{ render_field(form.remember_me) }}
+				{{ render_field(form.submit) }}
+			</table>
+		</form>
+	</section>
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}

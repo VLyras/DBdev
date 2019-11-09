@@ -1,0 +1,22 @@
+
+{% extends "base.html" %}
+
+{% block title %}
+Driftbee -- Trip Summary for user {{user.username}}
+{% endblock %}
+
+{% block content %}
+	<article>
+		<header>
+			<h1>Trips for {{user.username}}</h1>
+
+			{% if user.trips.count()>0 %}
+                {% with trips=user.trips %}
+                    {% include "trip_list.html" %}
+                {% endwith %}
+            {% else %}
+                This user has not added any trips yet.
+            {% endif %}
+		</header>
+	</article>
+{% endblock   %}

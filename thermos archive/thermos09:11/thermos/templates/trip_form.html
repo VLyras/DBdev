@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% from "form_macros.html" import render_field %}
+
+{% block title %}
+Driftbee -- {{ title }}
+{% endblock %}
+
+{% block flashes %}
+{% endblock %}
+
+{% block content %}
+	<section>
+		<h1>{{ title }}</h1>
+		<form action="" method="POST">
+			{{form.hidden_tag()}}
+			<table>
+				{{ render_field(form.description, size=30) }}
+				{{ render_field(form.destination, size=30) }}
+				{{ render_field(form.outbound_date, size=30) }}
+				{{ render_field(form.outbound_time, size=30) }}
+				{{ render_field(form.inbound_date, size=30) }}
+				{{ render_field(form.inbound_time, size=30) }}
+				{{ render_field(form.url, size=30) }}
+				{{ render_field(form.tags, size=30, id="tags") }}
+				{{ render_field(form.privacy) }}
+				<tr class="submit">
+					<td></td>
+					<td><button type="submit"> Submit</button></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+{% endblock %}
+
+{% block sidebar %}
+<section class="sidebar">
+	<a href="{{ url_for('upload_file') }}"> <h3>Or do you want the AI to figure it out?</h3></a>
+</section>
+{% endblock %}
